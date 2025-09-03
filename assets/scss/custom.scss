@@ -1,14 +1,31 @@
-/* Center the Skills block */
-.center-skills .row {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-}
+/* Center & rebalance the Skills block on desktop */
 @media (min-width: 992px) {
+  /* Center the whole section and give it a reasonable width */
   .center-skills .container {
-    max-width: 1200px !important;
+    max-width: 1100px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
+  /* Put items on 3 columns per row instead of 6 skinny columns */
+  .center-skills .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 1.25rem; /* spacing between columns */
+  }
+
+  /* Force each skill group to take 1/3 width (3 per row) */
+  .center-skills .row > [class*="col-"] {
+    flex: 0 0 33.3333% !important;
+    max-width: 33.3333% !important;
+  }
+
+  /* Kill any theme offsets that push content left/right */
+  .center-skills .row [class*="offset-"] {
+    margin-left: 0 !important;
+  }
 }
+
+/* Center the section title just in case */
 .center-skills h2 { text-align: center !important; }
