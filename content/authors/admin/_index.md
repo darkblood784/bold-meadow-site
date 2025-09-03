@@ -122,7 +122,7 @@ languages:
   - { name: "Mandarin (basic)", percent: 25 }
 
 avatar:
-  filename: "avatar.jpg"
+  filename: "avatar.jpeg"
 ---
 
 ## About
