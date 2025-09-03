@@ -1,28 +1,14 @@
-/* ===== Center the Skills & Hobbies grid (force) ===== */
-
-/* Try all likely wrappers used by Resume theme */
-section#skills .row,
-.wg-skills .row,
-.section-skills .row {
+/* Center the Skills block */
+.center-skills .row {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
 }
-
-/* Make the container a bit wider and centered on desktop */
 @media (min-width: 992px) {
-  section#skills .container,
-  .wg-skills .container,
-  .section-skills .container {
+  .center-skills .container {
     max-width: 1200px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 }
-
-/* Center the section heading just in case */
-section#skills h2,
-.section-skills h2,
-.wg-skills h2 {
-  text-align: center !important;
-}
+.center-skills h2 { text-align: center !important; }
