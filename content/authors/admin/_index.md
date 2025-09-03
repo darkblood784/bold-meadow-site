@@ -6,7 +6,7 @@ pronouns: "he/him"
 status: { icon: "🚀" }
 superuser: true
 highlight_name: true
-role: "AI/ML Engineer — NLP, RAG, Smart Contracts"
+role: "CTO | AI/ML Engineer — NLP, RAG, Smart Contracts"
 
 organizations:
   - name: "Whale Strategy Co., Ltd."
