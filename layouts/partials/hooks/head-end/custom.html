@@ -1,48 +1,9 @@
-<!-- skills centering (loaded via head-end hook) -->
 <style>
-@media (min-width: 992px) {
-  /* center the container */
-  section#skills .container,
-  .home-section[data-wc-section="skills"] .container,
-  .section-skills .container,
-  .wg-skills .container {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* center the row and make a comfortable grid */
-  section#skills .row,
-  .home-section[data-wc-section="skills"] .row,
-  .section-skills .row,
-  .wg-skills .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.25rem;
-  }
-
-  /* 3 columns per row so the block actually sits centered */
-  section#skills .row > [class*="col-"],
-  .home-section[data-wc-section="skills"] .row > [class*="col-"],
-  .section-skills .row > [class*="col-"],
-  .wg-skills .row > [class*="col-"] {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
-
-  /* remove any offsets just in case */
-  section#skills .row [class*="offset-"],
-  .home-section[data-wc-section="skills"] .row [class*="offset-"] {
-    margin-left: 0;
-  }
-
-  /* center the heading */
-  section#skills h2,
-  .home-section[data-wc-section="skills"] h2,
-  .section-skills h2,
-  .wg-skills h2 {
-    text-align: center;
-  }
+@media (min-width: 1024px){
+  #section-resume-skills .max-w-prose{max-width:1200px!important;margin-left:auto!important;margin-right:auto!important}
+  #section-resume-skills .lg\:flex-row{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:1.25rem!important}
+  #section-resume-skills .lg\:flex-row>.w-full{flex:0 0 33.333%!important;max-width:33.333%!important}
+  #section-resume-skills .lg\:flex-row>[class*="offset-"]{margin-left:0!important}
+  #section-resume-skills .mb-6.text-3xl{text-align:center!important}
 }
 </style>
