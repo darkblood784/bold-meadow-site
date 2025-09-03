@@ -1,18 +1,28 @@
-/* Center the Skills & Hobbies grid on desktop */
-@media (min-width: 992px) {
-  /* Target the skills section across HugoBlox variants */
-  #skills .row,
-  .home-section[data-wc-section="skills"] .row,
-  .section-skills .row,
-  .wg-skills .row {
-    justify-content: center;     /* center the columns */
-  }
+/* ===== Center the Skills & Hobbies grid (force) ===== */
 
-  /* Slightly widen the container so the section feels balanced */
-  #skills .container,
-  .home-section[data-wc-section="skills"] .container,
-  .section-skills .container,
-  .wg-skills .container {
-    max-width: 1200px;
+/* Try all likely wrappers used by Resume theme */
+section#skills .row,
+.wg-skills .row,
+.section-skills .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+/* Make the container a bit wider and centered on desktop */
+@media (min-width: 992px) {
+  section#skills .container,
+  .wg-skills .container,
+  .section-skills .container {
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
+}
+
+/* Center the section heading just in case */
+section#skills h2,
+.section-skills h2,
+.wg-skills h2 {
+  text-align: center !important;
 }
