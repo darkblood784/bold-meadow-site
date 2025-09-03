@@ -117,9 +117,9 @@ skills:
 
 languages:
   - { name: "English", percent: 100 }
-  - { name: "Hindi", percent: 95 }
-  - { name: "Nepali", percent: 95 }
-  - { name: "Mandarin (basic)", percent: 35 }
+  - { name: "Hindi", percent: 100 }
+  - { name: "Nepali", percent: 100 }
+  - { name: "Mandarin (basic)", percent: 25 }
 
 avatar:
   filename: "avatar.jpg"
