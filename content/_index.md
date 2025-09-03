@@ -38,12 +38,10 @@ sections:
       is_education_first: false
 
   - block: skills
-    content:
-      title: "Skills & Hobbies"
-      username: admin
-    design:
-      columns: 3          # balance the grid
-    class: center-skills  # custom class we'll target in SCSS
+  content:
+    title: "Skills & Hobbies"
+    username: admin
+  class: center-skills
 
   - block: languages
     content:
