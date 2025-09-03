@@ -38,10 +38,10 @@ sections:
       is_education_first: false
 
   - block: skills
-  content:
-    title: "Skills & Hobbies"
-    username: admin
-  class: center-skills
+    content:
+      title: "Skills & Hobbies"
+      username: admin
+    class: center-skills  # custom class we'll target in SCSS
 
   - block: languages
     content:
