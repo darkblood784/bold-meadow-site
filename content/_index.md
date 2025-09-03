@@ -38,9 +38,13 @@ sections:
       # Education or Experience section first?
       is_education_first: false
   - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
+  content:
+    title: Skills & Hobbies
+    username: admin
+  design:
+    columns: 3          # balances the grid
+  class: center-skills  # add a custom class we can target
+
   - block: languages
     content:
       title: Languages
