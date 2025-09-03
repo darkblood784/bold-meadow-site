@@ -1,175 +1,130 @@
 ---
-# Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Pronouns (optional)
-pronouns: she/her
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
+title: "Adarsh Rouniyar"
+first_name: "Adarsh"
+last_name: "Rouniyar"
+pronouns: "he/him"
+status: { icon: "🚀" }
 superuser: true
+highlight_name: true
+role: "AI/ML Engineer — NLP, RAG, Smart Contracts"
 
-# Role/position/tagline
-role: Director of Cloud Infrastructure
-
-# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: "Whale Strategy Co., Ltd."
+    url: "https://whalestrategy.net/"
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: "at-symbol"
+    url: "mailto:adarsh@csie.io"
+    label: "E-mail"
+  - icon: "brands/github"
+    url: "https://github.com/darkblood784"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/adarsh-rouniyar-876b1419b/"
+  - icon: "brands/x"
+    url: "https://x.com/dnt_hap_my_name"
+  - icon: "brands/instagram"
+    url: "https://www.instagram.com/adarsh_rouniyar/"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=67pvE0MAAAAJ&hl=en"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-0498-2326"
+
+interests:
+  - "NLP & LLMs (RAG, embeddings, evaluation)"
+  - "Production AI (APIs, Docker/K8s)"
+  - "Crypto systems (smart contracts, trading bots)"
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: "M.Sc., Computer Science & Information Engineering"
+    institution: "National Chung Cheng University (CCU), Taiwan"
+    date_start: "2021-09-01"
+    date_end: "2023-08-31"
+    summary: "GPA 4.11/4.3. Thesis: Performance-Based Model Aggregation in Federated Learning for Image-Based AQI Classification."
+  - area: "B.Tech., Computer Science & Engineering"
+    institution: "Vel Tech University, India"
+    date_start: "2017-01-01"
+    date_end: "2021-01-01"
+    summary: "CGPA 8.3/10."
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: "Chief Technology Officer & AI Software Engineer"
+    company_name: "Whale Strategy Co., Ltd."
+    company_url: "https://whalestrategy.net"
+    location: "Kaohsiung, Taiwan"
+    date_start: "2024-04-01"
+    date_end: ""
+    summary: |-
+      - Built the company website (WordPress) and internal tooling.
+      - Wrote & verified smart contracts on X Layer and BSC powering a staking platform (234K+ USDT staked).
+      - Exposed LLM features via REST (FastAPI), packaged with Docker; implemented RAG pipelines (embeddings, vector store, prompt orchestration).
+      - Built Python trading bots with OKX API & TradingView; ML for forecasting & anomaly detection.
+      - Set delivery practices (reviews, CI/CD) and mentored interns/juniors.
+  - position: "AI Research Assistant & Project Assistant"
+    company_name: "National Chung Cheng University (CCU)"
+    company_url: "https://www.ccu.edu.tw"
+    location: "Minxiong & Chiayi, Taiwan"
+    date_start: "2021-11-01"
+    date_end: "2024-05-31"
+    summary: |-
+      - Researched federated learning, trustworthy AI, and smart-city systems.
+      - Implemented CNNs, adversarial training, and distributed training (TensorFlow, PyTorch).
+      - Co-authored peer-reviewed papers (AI Review 2024, Future Internet 2023, ACM GoodIT 2023, IEEE ISC2 2022).
+      - Contributed to NSTC–CCU Trustworthy AI Smart City project; coordinated with partners in India & Taiwan.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: "NLP/GenAI"
     items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+      - { name: "LLMs & Transformers (Hugging Face)", percent: 90, icon: "academic-cap" }
+      - { name: "RAG & embeddings (LangChain/LlamaIndex)", percent: 85, icon: "magnifying-glass" }
+      - { name: "Prompt engineering & eval", percent: 80, icon: "chart-bar" }
+
+  - name: "ML & Deep Learning"
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - { name: "CNNs, Keras, PyTorch, TensorFlow", percent: 85, icon: "cube-transparent" }
+      - { name: "Federated Learning & Model Aggregation", percent: 85, icon: "arrows-right-left" }
+      - { name: "Adversarial training", percent: 75, icon: "shield-check" }
+
+  - name: "Engineering Stack"
+    items:
+      - { name: "Python (FastAPI)", percent: 90, icon: "code-bracket" }
+      - { name: "Rust (familiar)", percent: 60, icon: "beaker" }
+      - { name: "CI/CD & testing", percent: 75, icon: "wrench-screwdriver" }
+
+  - name: "Cloud & Platform"
+    items:
+      - { name: "Docker / Kubernetes (K8s) / Linux", percent: 85, icon: "squares-2x2" }
+      - { name: "Azure (OpenAI, Cognitive Search) — learning", percent: 70, icon: "cloud" }
+      - { name: "GCP, Colab, JupyterHub", percent: 75, icon: "server-stack" }
+
+  - name: "Data & APIs"
+    items:
+      - { name: "REST APIs", percent: 90, icon: "link" }
+      - { name: "Vector DBs (FAISS/Milvus/Pinecone)", percent: 80, icon: "database" }
+      - { name: "SQL & data handling", percent: 70, icon: "table-cells" }
+
+  - name: "Web & Crypto"
+    items:
+      - { name: "Web apps & WordPress", percent: 80, icon: "globe-alt" }
+      - { name: "TradingView / Pine Script, OKX API", percent: 80, icon: "chart-bar" }
+      - { name: "Smart contracts (EVM: X Layer, BSC)", percent: 75, icon: "lock-closed" }
+
+  - name: "Tools & Soft Skills"
+    items:
+      - { name: "Git, VS Code", percent: 90, icon: "wrench-screwdriver" }
+      - { name: "Leadership & mentoring", percent: 85, icon: "users" }
+      - { name: "Technical communication & problem solving", percent: 85, icon: "chat-bubble-left-right" }
+
 
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - { name: "English", percent: 100 }
+  - { name: "Hindi", percent: 95 }
+  - { name: "Nepali", percent: 95 }
+  - { name: "Mandarin (basic)", percent: 35 }
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+avatar:
+  filename: "avatar.jpg"
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+## About
+
+I build end-to-end AI systems: LLM + RAG pipelines, APIs, and production deployments with Docker/K8s. Recent work: a smart-contract staking platform (X Layer/BSC, 234K+ USDT staked), an LLM chatbot for crypto insights, and ML-driven trading bots. Previously at CCU, I worked on federated learning and trustworthy AI with publications in AI Review, Future Internet, ACM GoodIT, and IEEE ISC2.
