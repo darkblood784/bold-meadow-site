@@ -44,7 +44,6 @@ sections:
   design:
     columns: 3          # balances the grid
   class: center-skills  # add a custom class we can target
-
   - block: languages
     content:
       title: Languages
