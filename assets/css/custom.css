@@ -1,0 +1,26 @@
+/* Center the "Skills & Hobbies" grid */
+#skills .row,
+.section-skills .row,
+.home-section[data-wc-section="skills"] .row,
+.wg-skills .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;         /* <- the key bit */
+}
+
+/* Slightly widen & center the container on desktop so it feels balanced */
+@media (min-width: 992px) {
+  #skills .container,
+  .section-skills .container,
+  .home-section[data-wc-section="skills"] .container,
+  .wg-skills .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Optional: center the section title too */
+#skills h2, .section-skills h2 {
+  text-align: center;
+}
